@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+  <meta content="yes" name="apple-mobile-web-app-capable">
+  <meta content="black" name="apple-mobile-web-app-status-bar-style">
+  <meta content="telephone=no" name="format-detection">
+  <meta content="email=no" name="format-detection">
+  <meta name="description" content="不超过150个字符"/>
+  <meta name="keywords" content=""/>
+  <meta content="tom" name="author"/>
+  <title>找书大师</title>
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="css/swiper.min.css">  
+  <script type="text/javascript">
+    //引入该flexible.min.js
+    !function(e,t){function n(){var n=l.getBoundingClientRect().width;t=t||540,n>t&&(n=t);var i=100*n/e;r.innerHTML="html{font-size:"+i+"px;}"}var i,d=document,o=window,l=d.documentElement,r=document.createElement("style");if(l.firstElementChild)l.firstElementChild.appendChild(r);else{var a=d.createElement("div");a.appendChild(r),d.write(a.innerHTML),a=null}n(),o.addEventListener("resize",function(){clearTimeout(i),i=setTimeout(n,300)},!1),o.addEventListener("pageshow",function(e){e.persisted&&(clearTimeout(i),i=setTimeout(n,300))},!1),"complete"===d.readyState?d.body.style.fontSize="16px":d.addEventListener("DOMContentLoaded",function(e){d.body.style.fontSize="16px"},!1)}(750,750);
+  </script>
+</head>
+<body>
+<!-- 正文 -->
+<div class="container">
+	<div class="header">
+		<div class="search-box">
+			<div class="search-item">
+				<div class="search-title">书名 <img src="img/ai-arrow-down.png" alt=""></div>
+				<div class="search-cont"><input class="book-search" placeholder="支持书名、作者、主角搜索" type="text" name="" id="" value="" /></div>
+				<div class="search-img"><img src="img/seaech2.png" alt=""></div>
+				<ul class="search-list">
+					<li class="active">书名</li>
+					<li>作者</li>
+					<li>主角</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="hot-search">
+		<h1>近期热搜</h1>
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<img src="img/home-cover-1.png" alt="">
+					<p>荣耀王者</p>
+				</div>
+				<div class="swiper-slide">
+					<img src="img/home-cover-2.png" alt="">
+					<p>荣耀王者</p>
+				</div>
+				<div class="swiper-slide">
+					<img src="img/home-cover-3.png" alt="">
+					<p>荣耀王者</p>
+				</div>
+				<div class="swiper-slide">
+					<img src="img/home-cover-4.png" alt="">
+					<p>荣耀王者</p>
+				</div>
+				<div class="swiper-slide">
+					<img src="img/home-cover-1.png" alt="">
+					<p>荣耀王者</p>
+				</div>
+				<div class="swiper-slide">
+					<img src="img/home-cover-2.png" alt="">
+					<p>荣耀王者</p>
+				</div>
+				<div class="swiper-slide">
+					<img src="img/home-cover-3.png" alt="">
+					<p>荣耀王者</p>
+				</div>
+				<div class="swiper-slide">
+					<img src="img/home-cover-4.png" alt="">
+					<p>荣耀王者</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="hot-search">
+		<h1>搜索历史</h1>
+		<ul class="his-tips">
+			<li>半藏森林</li>
+			<li>清平乐</li>
+			<li>伪装者</li>
+			<li>琅琊榜</li>
+			<li>绝地求生</li>
+			<li>梦里花落知多少</li>
+			<li>耿耿</li>
+			<li>漩涡鸣人</li>
+		</ul>
+	</div>
+	<div class="clear"></div>
+	<div class="tab-bar">
+		<a href="bookcase.html" class="tab-item">
+			<div class="tab-item-img"><img src="img/bookshelf.png" alt=""></div>
+			书架
+		</a>
+		<a href="index.html" class="tab-item">
+			<div class="tab-item-img"><img src="img/home-red.png" alt=""></div>
+			首页
+		</a>
+		<a href="top.html" class="tab-item">
+			<div class="tab-item-img"><img src="img/list.png" alt=""></div>
+			榜单
+		</a>
+		<a href="#" class="tab-item">
+			<div class="tab-item-img"><img src="img/classification.png" alt=""></div>
+			分类
+		</a>
+	</div>
+</div>
+<script src="js/jquery-3.4.1.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/swiper.min.js"> </script>
+<script>        
+	var swiper = new Swiper('.swiper-container', {
+		pagination: '.swiper-pagination',
+        slidesPerView: 4,
+        paginationClickable: true,
+		spaceBetween: 30,
+		loop:true,
+		autoplay:true,
+		speed:3000,
+	});
+	
+	$(".search-title").click(function(){
+	    $('.search-list').toggle()
+	});
+</script>
+</body>
+</html>
