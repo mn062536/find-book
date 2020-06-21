@@ -18,7 +18,7 @@ body{
 	position: relative;
 	text-align: center;
 }
-.header .book-search{
+.book-search{
 	font-size: 13px;
 	float: left;
 	width: 100%;
@@ -31,9 +31,14 @@ body{
 	margin: 0 auto;
 	width:6.37rem;
 }
+.search-test{
+	background: #F5F5F5 !important;
+}
+.search-test input{
+	background: #F5F5F5;
+}
 .search-item{
 	position: relative;
-	width: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: left;
@@ -42,6 +47,7 @@ body{
 	background:rgba(255,255,255,1);
 	border-radius:33px;
 	color: #888888;
+	margin: 0 auto;
 }
 .search-cont{
 	width: 65%;
@@ -324,4 +330,16 @@ body{
 	text-align: center;
 	margin-top: 10px;
 	font-size: 13px;
+}
+.search-header{
+	display: flex;
+	height: 40px;
+	align-items: center;
+	margin: 15px 0;
+}
+.search-header .search-back{
+	padding-left: 20px;
+	padding-top: .1rem;
+}
+.search-header .search-back img{
 }

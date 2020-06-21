@@ -10,7 +10,7 @@
   <meta name="description" content="不超过150个字符"/>
   <meta name="keywords" content=""/>
   <meta content="tom" name="author"/>
-  <title>H5demo</title>
+  <title>找书大师</title>
   <link rel="stylesheet" href="./css/base.css">
   <link rel="stylesheet" href="./css/style.css">
   <script type="text/javascript">
@@ -21,6 +21,20 @@
 <body>
 <!-- 正文 -->
 <div class="container">
+	<div class="search-header">
+		<div class="search-back"><img src="img/arrow_left.png" alt=""></div>
+		<div class="search-item search-test">
+			<div class="search-title" style="padding-left: 10px;">书名 <img src="img/ai-arrow-down.png" alt=""></div>
+			<div class="search-cont">
+				<input class="book-search" placeholder="支持书名、作者、主角搜索" type="text" name="" id="" value="" /></div>
+			<div class="search-img"><img src="img/seaech2.png" alt=""></div>
+			<ul class="search-list">
+				<li class="active">书名</li>
+				<li>作者</li>
+				<li>主角</li>
+			</ul>
+		</div>
+	</div>
 	<div class="book-tab-bar">
 		<div class="active">书名</div>
 		<div>作者</div>
@@ -120,6 +134,9 @@
 <script type="text/javascript">
 	$(".sx-click").click(function(){
 	    $('.sx-show').toggle()
+	});
+	$(".search-title").click(function(){
+	    $('.search-list').toggle()
 	});
 </script>
 </body>
