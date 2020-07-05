@@ -142,7 +142,7 @@ body{
 	font-size: 13px;
 	border-bottom: 1px #DDDDDD solid;
 	margin-bottom: 10px;
-	padding: 10px 0;
+	/* padding: 10px 0; */
 }
 .book-cover{
 	width: 60%;
@@ -277,7 +277,7 @@ body{
 .top-content .top-left-item ul li a{
 	color: #888888;
 }
-.top-right-item{
+.top-right-info{
 	width: 70%;
 }
 .top-news{
@@ -341,5 +341,6 @@ body{
 	padding-left: 20px;
 	padding-top: .1rem;
 }
-.search-header .search-back img{
+.d_status{
+	border: none;
 }

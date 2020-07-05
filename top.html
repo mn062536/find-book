@@ -1,176 +1,172 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
-  <meta content="yes" name="apple-mobile-web-app-capable">
-  <meta content="black" name="apple-mobile-web-app-status-bar-style">
-  <meta content="telephone=no" name="format-detection">
-  <meta content="email=no" name="format-detection">
-  <meta name="description" content="不超过150个字符"/>
-  <meta name="keywords" content=""/>
-  <meta content="tom" name="author"/>
-  <title>H5demo</title>
-  <link rel="stylesheet" href="./css/base.css">
-  <link rel="stylesheet" href="./css/style.css">
-  <script type="text/javascript">
-    //引入该flexible.min.js
-    !function(e,t){function n(){var n=l.getBoundingClientRect().width;t=t||540,n>t&&(n=t);var i=100*n/e;r.innerHTML="html{font-size:"+i+"px;}"}var i,d=document,o=window,l=d.documentElement,r=document.createElement("style");if(l.firstElementChild)l.firstElementChild.appendChild(r);else{var a=d.createElement("div");a.appendChild(r),d.write(a.innerHTML),a=null}n(),o.addEventListener("resize",function(){clearTimeout(i),i=setTimeout(n,300)},!1),o.addEventListener("pageshow",function(e){e.persisted&&(clearTimeout(i),i=setTimeout(n,300))},!1),"complete"===d.readyState?d.body.style.fontSize="16px":d.addEventListener("DOMContentLoaded",function(e){d.body.style.fontSize="16px"},!1)}(750,750);
-  </script>
+	<meta charset="utf-8">
+	<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta content="black" name="apple-mobile-web-app-status-bar-style">
+	<meta content="telephone=no" name="format-detection">
+	<meta content="email=no" name="format-detection">
+	<meta name="description" content="不超过150个字符" />
+	<meta name="keywords" content="" />
+	<meta content="tom" name="author" />
+	<title>找书</title>
+	<link rel="stylesheet" href="./css/base.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<script type="text/javascript">
+		//引入该flexible.min.js
+		!function (e, t) { function n() { var n = l.getBoundingClientRect().width; t = t || 540, n > t && (n = t); var i = 100 * n / e; r.innerHTML = "html{font-size:" + i + "px;}" } var i, d = document, o = window, l = d.documentElement, r = document.createElement("style"); if (l.firstElementChild) l.firstElementChild.appendChild(r); else { var a = d.createElement("div"); a.appendChild(r), d.write(a.innerHTML), a = null } n(), o.addEventListener("resize", function () { clearTimeout(i), i = setTimeout(n, 300) }, !1), o.addEventListener("pageshow", function (e) { e.persisted && (clearTimeout(i), i = setTimeout(n, 300)) }, !1), "complete" === d.readyState ? d.body.style.fontSize = "16px" : d.addEventListener("DOMContentLoaded", function (e) { d.body.style.fontSize = "16px" }, !1) }(750, 750);
+	</script>
 </head>
+
 <body>
-<!-- 正文 -->
-<div class="container">
-	<div class="book-tab-bar">
-		<div class="active">男生</div>
-		<div>女生</div>
-	</div>
-	<div class="top-content">
-		<div class="top-left-item">
-			<ul>
-				<li><a href="#">男生热搜</a></li>
-				<li class="top-active"><a href="#">人气榜</a></li>
-				<li><a href="#">评分榜</a></li>
-				<li><a href="#">新书榜</a></li>
-				<li><a href="#">起点月票榜</a></li>
-				<li><a href="#">晋江金榜</a></li>
-				<li><a href="#">掌阅热销榜</a></li>
-				<li><a href="#">百度指数</a></li>
-				<li><a href="#">龙空榜单</a></li>
-			</ul>
+	<!-- 正文 -->
+	<div class="container">
+		<div class="book-tab-bar">
+			<div class="book-tab active">男生</div>
+			<div class="book-tab">女生</div>
 		</div>
-		<div class="top-right-item">
-			<div class="book-list top-news">
-				<div class="book-cover">
-					<img src="img/search-cover-1.png" >
+		<div class="book-all">
+			<div class="top-content">
+				<div class="top-left-item">
+					<ul>
+						<li class="top-tab top-active"><a href="#">男生热搜</a></li>
+						<li class="top-tab"><a href="#">人气榜</a></li>
+						<!-- <li><a href="#">评分榜</a></li>
+					<li><a href="#">新书榜</a></li>
+					<li><a href="#">起点月票榜</a></li>
+					<li><a href="#">晋江金榜</a></li>
+					<li><a href="#">掌阅热销榜</a></li>
+					<li><a href="#">百度指数</a></li>
+					<li><a href="#">龙空榜单</a></li> -->
+					</ul>
 				</div>
-				<div class="book-right">
-					<h2>1、第九特区</h2>
-					<h4>都市 · 豪门 · 连载中 · 523万字</h4>
-					<p>四年前，他讨厌她，四年后他爱她。愿望是尽早实现财务自由，过上猪一样的生活...四年前，他讨厌她，四年后他爱她。愿望是尽早实现财务自由</p>
-				</div>
-			</div>
-			<div class="book-list top-news">
-				<div class="book-cover">
-					<img src="img/search-cover-1.png" >
-				</div>
-				<div class="book-right">
-					<h2>2、第九特区</h2>
-					<h4>都市 · 豪门 · 连载中 · 523万字</h4>
-					<p>四年前，他讨厌她，四年后他爱她。愿望是尽早实现财务自由，过上猪一样的生活...四年前，他讨厌她，四年后他爱她。愿望是尽早实现财务自由</p>
-				</div>
-			</div>
-			<div class="book-list top-news">
-				<div class="book-cover">
-					<img src="img/search-cover-1.png" >
-				</div>
-				<div class="book-right">
-					<h2>3、第九特区</h2>
-					<h4>都市 · 豪门 · 连载中 · 523万字</h4>
-					<p>四年前，他讨厌她，四年后他爱她。愿望是尽早实现财务自由，过上猪一样的生活...四年前，他讨厌她，四年后他爱她。愿望是尽早实现财务自由</p>
-				</div>
-			</div>
-			<div class="book-list top-news">
-				<div class="book-cover">
-					<img src="img/search-cover-1.png" >
-				</div>
-				<div class="book-right">
-					<h2>4、第九特区</h2>
-					<h4>都市 · 豪门 · 连载中 · 523万字</h4>
-					<p>四年前，他讨厌她，四年后他爱她。愿望是尽早实现财务自由，过上猪一样的生活...四年前，他讨厌她，四年后他爱她。愿望是尽早实现财务自由</p>
-				</div>
-			</div>
-			<div class="book-list top-news">
-				<div class="book-cover">
-					<img src="img/search-cover-1.png" >
-				</div>
-				<div class="book-right">
-					<h2>5、第九特区</h2>
-					<h4>都市 · 豪门 · 连载中 · 523万字</h4>
-					<p>四年前，他讨厌她，四年后他爱她。愿望是尽早实现财务自由，过上猪一样的生活...四年前，他讨厌她，四年后他爱她。愿望是尽早实现财务自由</p>
-				</div>
-			</div>
-			<div class="book-list top-news">
-				<div class="book-cover">
-					<img src="img/search-cover-1.png" >
-				</div>
-				<div class="book-right">
-					<h2>5、第九特区</h2>
-					<h4>都市 · 豪门 · 连载中 · 523万字</h4>
-					<p>四年前，他讨厌她，四年后他爱她。愿望是尽早实现财务自由，过上猪一样的生活...四年前，他讨厌她，四年后他爱她。愿望是尽早实现财务自由</p>
+				<div class="top-right-info">
+					<div class="top-right-item">
+						<div class="book-list top-news">
+							<div class="book-cover">
+								<img src="img/search-cover-1.png">
+							</div>
+							<div class="book-right">
+								<h2>1、第九特区</h2>
+								<h4>都市 · 豪门 · 连载中 · 523万字</h4>
+								<p>四年前，他讨厌她，四年后他爱她。愿望是尽早实现财务自由，过上猪一样的生活...四年前，他讨厌她，四年后他爱她。愿望是尽早实现财务自由</p>
+							</div>
+						</div>
+						<div class="book-list top-news">
+							<div class="book-cover">
+								<img src="img/search-cover-1.png">
+							</div>
+							<div class="book-right">
+								<h2>1、第九特区</h2>
+								<h4>都市 · 豪门 · 连载中 · 523万字</h4>
+								<p>四年前，他讨厌她，四年后他爱她。愿望是尽早实现财务自由，过上猪一样的生活...四年前，他讨厌她，四年后他爱她。愿望是尽早实现财务自由</p>
+							</div>
+						</div>
+					</div>
+					<div class="top-right-item" style="display: none;">
+						<div class="book-list top-news">
+							<div class="book-cover">
+								<img src="img/search-cover-1.png">
+							</div>
+							<div class="book-right">
+								<h2>1、追风筝的人</h2>
+								<h4>都市 · 豪门 · 连载中 · 523万字</h4>
+								<p>四年前，他讨厌她，四年后他爱她。愿望是尽早实现财务自由，过上猪一样的生活...四年前，他讨厌她，四年后他爱她。愿望是尽早实现财务自由</p>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
-			<div class="book-list top-news">
-				<div class="book-cover">
-					<img src="img/search-cover-1.png" >
+			<div class="top-content" style="display: none;">
+				<div class="top-left-item">
+					<ul>
+						<li class="top-tab top-active"><a href="#">男生热搜</a></li>
+						<li class="top-tab"><a href="#">人气榜</a></li>
+						<!-- <li><a href="#">评分榜</a></li>
+					<li><a href="#">新书榜</a></li>
+					<li><a href="#">起点月票榜</a></li>
+					<li><a href="#">晋江金榜</a></li>
+					<li><a href="#">掌阅热销榜</a></li>
+					<li><a href="#">百度指数</a></li>
+					<li><a href="#">龙空榜单</a></li> -->
+					</ul>
 				</div>
-				<div class="book-right">
-					<h2>5、第九特区</h2>
-					<h4>都市 · 豪门 · 连载中 · 523万字</h4>
-					<p>四年前，他讨厌她，四年后他爱她。愿望是尽早实现财务自由，过上猪一样的生活...四年前，他讨厌她，四年后他爱她。愿望是尽早实现财务自由</p>
-				</div>
-			</div>
-			<div class="book-list top-news">
-				<div class="book-cover">
-					<img src="img/search-cover-1.png" >
-				</div>
-				<div class="book-right">
-					<h2>5、第九特区</h2>
-					<h4>都市 · 豪门 · 连载中 · 523万字</h4>
-					<p>四年前，他讨厌她，四年后他爱她。愿望是尽早实现财务自由，过上猪一样的生活...四年前，他讨厌她，四年后他爱她。愿望是尽早实现财务自由</p>
-				</div>
-			</div>
-			<div class="book-list top-news">
-				<div class="book-cover">
-					<img src="img/search-cover-1.png" >
-				</div>
-				<div class="book-right">
-					<h2>5、第九特区</h2>
-					<h4>都市 · 豪门 · 连载中 · 523万字</h4>
-					<p>四年前，他讨厌她，四年后他爱她。愿望是尽早实现财务自由，过上猪一样的生活...四年前，他讨厌她，四年后他爱她。愿望是尽早实现财务自由</p>
-				</div>
-			</div>
-			<div class="book-list top-news">
-				<div class="book-cover">
-					<img src="img/search-cover-1.png" >
-				</div>
-				<div class="book-right">
-					<h2>5、第九特区</h2>
-					<h4>都市 · 豪门 · 连载中 · 523万字</h4>
-					<p>四年前，他讨厌她，四年后他爱她。愿望是尽早实现财务自由，过上猪一样的生活...四年前，他讨厌她，四年后他爱她。愿望是尽早实现财务自由</p>
-				</div>
-			</div>
-			<div class="book-list top-news">
-				<div class="book-cover">
-					<img src="img/search-cover-1.png" >
-				</div>
-				<div class="book-right">
-					<h2>5、第九特区</h2>
-					<h4>都市 · 豪门 · 连载中 · 523万字</h4>
-					<p>四年前，他讨厌她，四年后他爱她。愿望是尽早实现财务自由，过上猪一样的生活...四年前，他讨厌她，四年后他爱她。愿望是尽早实现财务自由</p>
+				<div class="top-right-info">
+					<div class="top-right-item">
+						<div class="book-list top-news">
+							<div class="book-cover">
+								<img src="img/search-cover-1.png">
+							</div>
+							<div class="book-right">
+								<h2>秦时明月</h2>
+								<h4>都市 · 豪门 · 连载中 · 523万字</h4>
+								<p>四年前，他讨厌她，四年后他爱她。愿望是尽早实现财务自由，过上猪一样的生活...四年前，他讨厌她，四年后他爱她。愿望是尽早实现财务自由</p>
+							</div>
+						</div>
+						<div class="book-list top-news">
+							<div class="book-cover">
+								<img src="img/search-cover-1.png">
+							</div>
+							<div class="book-right">
+								<h2>1、第九特区</h2>
+								<h4>都市 · 豪门 · 连载中 · 523万字</h4>
+								<p>四年前，他讨厌她，四年后他爱她。愿望是尽早实现财务自由，过上猪一样的生活...四年前，他讨厌她，四年后他爱她。愿望是尽早实现财务自由</p>
+							</div>
+						</div>
+					</div>
+					<div class="top-right-item" style="display: none;">
+						<div class="book-list top-news">
+							<div class="book-cover">
+								<img src="img/search-cover-1.png">
+							</div>
+							<div class="book-right">
+								<h2>1、追风筝的人</h2>
+								<h4>都市 · 豪门 · 连载中 · 523万字</h4>
+								<p>四年前，他讨厌她，四年后他爱她。愿望是尽早实现财务自由，过上猪一样的生活...四年前，他讨厌她，四年后他爱她。愿望是尽早实现财务自由</p>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
+		<div class="clear"></div>
+		<div class="tab-bar">
+			<a href="bookcase.html" class="tab-item">
+				<div class="tab-item-img"><img src="img/bookshelf.png" alt=""></div>
+				书架
+			</a>
+			<a href="index.html" class="tab-item">
+				<div class="tab-item-img"><img src="img/home-black.png" alt=""></div>
+				首页
+			</a>
+			<a href="top.html" class="tab-item">
+				<div class="tab-item-img"><img src="img/list-red.png" alt=""></div>
+				榜单
+			</a>
+			<a href="#" class="tab-item">
+				<div class="tab-item-img"><img src="img/classification.png" alt=""></div>
+				分类
+			</a>
+		</div>
 	</div>
-	<div class="clear"></div>
-	<div class="tab-bar">
-		<a href="bookcase.html" class="tab-item">
-			<div class="tab-item-img"><img src="img/bookshelf.png" alt=""></div>
-			书架
-		</a>
-		<a href="index.html" class="tab-item">
-			<div class="tab-item-img"><img src="img/home-black.png" alt=""></div>
-			首页
-		</a>
-		<a href="top.html" class="tab-item">
-			<div class="tab-item-img"><img src="img/list-red.png" alt=""></div>
-			榜单
-		</a>
-		<a href="#" class="tab-item">
-			<div class="tab-item-img"><img src="img/classification.png" alt=""></div>
-			分类
-		</a>
-	</div>
-</div>
+	<script src="js/jquery-3.4.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script>
+		$(function () {
+			$('.book-tab').click(function () {
+				$(this).addClass('active').siblings().removeClass('active');
+				$('.top-content:eq(' + $(this).index() + ')').show().siblings().hide();
+			});
+		});
+
+		$(function () {
+			$('.top-tab').click(function () {
+				$(this).addClass('top-active').siblings().removeClass('top-active');
+				$('.top-right-item:eq(' + $(this).index() + ')').show().siblings().hide();
+			});
+		});
+	</script>
 </body>
+
 </html>
