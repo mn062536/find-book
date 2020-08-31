@@ -10,6 +10,9 @@ body{
 .red{
 	color: red !important;
 }
+.font20{
+	font-size: 20px !important;
+}
 .clear{
 	clear: both;
 }
@@ -414,4 +417,104 @@ body{
 	font-size: 16px;
 	border-radius: 16.5px;
 	background-image: linear-gradient(#FF4F21,#E6222A);
+}
+
+/* 阅读 */
+.read-box{
+	padding: 10px;
+}
+.read-header{
+	font-size: 13px;
+	color: #9F815A;
+	margin-bottom: 22px;
+	position: relative;
+}
+.read-header .add-btn{
+	position: absolute;
+	font-size: 12px;
+	color: #FFFFFF;
+	border-radius: 16px 0 0 16px;
+	padding: 3px 15px;
+	background-image: linear-gradient(#FF4F21,#E6222A);
+	right: -10px;
+	top: 5px;
+}
+.read-title{
+	font-size: 25px;
+	color: #484848;
+	margin-bottom: 30.5px;
+}
+.read-content p{
+	font-size: 16px;
+	line-height: 38px;
+	color: #484848;
+}
+.read-footer{
+	text-align: center;
+	margin-top: 82.5px;
+	color: #845D29;
+	font-size: 16px;
+}
+.read-footer .find-btn{
+	width: 200.5px;
+	height: 33px;
+	line-height: 33px;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 16px;
+	text-align: center;
+	background-color: #D77E28;
+	border-radius: 16.5px;
+	margin: 0 auto;
+	margin-top: 23.5px;
+}
+.read-menu{
+	background-color: #FFFFFF;
+	padding: 15px 15px;
+	font-size: 13px;
+	color: #484848;
+	position: fixed;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	box-shadow: 0 -2px 3px -1px #eeeeee;
+}
+.read-menu .menu-top{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.read-menu .menu-top .progress{
+	width: 60%;
+	position: relative;
+}
+.read-menu .menu-top .progress .cir{
+	width: 14px;
+	height: 14px;
+	border-radius: 14px;
+	background-image: linear-gradient(#FF4F21,#E6222A);
+	position: absolute;
+	left: -3px;
+	top: -6px;
+}
+.read-menu .menu-bottom{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.read-menu .menu-bottom .btn{
+	width: 77px;
+	height: 25px;
+	line-height: 25px;
+	border: 1px #484848 solid;
+	text-align: center;
+	color: #484848;
+	border-radius: 16.5px;
+}
+.read-menu .menu-bottom .ml{
+	text-align: center;
+}
+.read-menu .menu-bottom .ml img{
+	width: 20.5px;
 }
