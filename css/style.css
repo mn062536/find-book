@@ -7,8 +7,14 @@ input{
 body{
 	color: #363636;
 }
+.red{
+	color: red !important;
+}
 .clear{
 	clear: both;
+}
+.nav-bar{
+	height: 44px;
 }
 .header{
 	width: 100%;
@@ -343,4 +349,69 @@ body{
 }
 .d_status{
 	border: none;
+}
+
+/* 目录 */
+.dir-box{
+	padding: 10px;
+}
+.dir-header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 14.5px;
+	border-bottom: 1px #E8E7E7 solid;
+	margin-bottom: 15px;
+}
+.dir-header .left{
+	font-size: 13px;
+	color: #868686;
+}
+.dir-header .right{
+	width: 14px;
+	background: url(../img/sort.png) no-repeat left center;
+	background-size: 14px;
+	padding-left: 16px;
+	width: 50px;
+}
+.dir-list li{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #868686;
+	margin: 15px 0;
+	font-size: 14px;
+
+}
+.dir-list li.active{
+	color: #000;
+}
+.dir-list li img{
+	width: 10.5px;
+}
+.footer-menu{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 72px;
+	padding: 0 20px;
+	font-size: 16px;
+	box-shadow: 0 -2px 3px -1px #eeeeee;
+}
+.footer-menu .add-book img{
+	width:20px;
+}
+.readBtn{
+	width: 150px;
+	height: 33px;
+	line-height: 33px;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 16px;
+	border-radius: 16.5px;
+	background-image: linear-gradient(#FF4F21,#E6222A);
 }
