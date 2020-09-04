@@ -10,7 +10,7 @@
   <meta name="description" content="不超过150个字符"/>
   <meta name="keywords" content=""/>
   <meta content="tom" name="author"/>
-  <title>找书大师</title>
+  <title>分类</title>
   <link rel="stylesheet" href="./css/base.css">
   <link rel="stylesheet" href="./css/style.css">
   <script type="text/javascript">
@@ -21,102 +21,29 @@
 <body>
 <!-- 正文 -->
 <div class="container">
-	<div class="search-header">
-		<div class="search-back"><img src="img/arrow_left.png" alt=""></div>
-		<div class="search-item search-test">
-			<div class="search-title" style="padding-left: 10px;">书名 <img src="img/ai-arrow-down.png" alt=""></div>
-			<div class="search-cont">
-				<input class="book-search" placeholder="支持书名、作者、主角搜索" type="text" name="" id="" value="" /></div>
-			<div class="search-img"><img src="img/seaech2.png" alt=""></div>
-			<ul class="search-list">
-				<li class="active">书名</li>
-				<li>作者</li>
-				<li>主角</li>
-			</ul>
-		</div>
+  <div class="bookNav">
+    全部
+  </div>
+	<div class="book-tab-bar classify-bar">
+		<div class="active">男生</div>
+    <div>女生</div>
+    <div class="btn">筛选</div>
 	</div>
-	<div class="book-tab-bar">
-		<div class="active">书名</div>
-		<div>作者</div>
-		<div>主角</div>
-		<div>相关新闻</div>
-	</div>
-	<!-- 导航栏 end -->
-	<div class="sx-item">
-		<div class="sitem">推荐<img src="img/ai-arrow-down.png" alt=""></div>
-		<div class="sitem sx-click">筛选<img src="img/shaixuan.png" alt=""></div>
-		<div class="sx-show">
-			<div class="sx-content">
-				<div class="sx-item-title">
-					<div>男生</div>
-					<div><img src="img/ai-arrow-down.png" alt=""></div>
-				</div>
-				<div class="sx-item-list">
-					<div>玄幻</div>
-					<div>奇幻</div>
-					<div>武侠</div>
-				</div>
-			</div>
-			<div class="sx-content">
-				<div class="sx-item-title">
-					<div>女生</div>
-					<div><img src="img/ai-arrow-down.png" alt=""></div>
-				</div>
-				<div class="sx-item-list">
-					<div>古代言情</div>
-					<div>现实生活</div>
-					<div>现代言情</div>
-				</div>
-			</div>
-			<div class="sx-content">
-				<div class="sx-item-title">
-					<div>出版</div>
-					<div><img src="img/ai-arrow-down.png" alt=""></div>
-				</div>
-				<div class="sx-item-list">
-					<div>小说</div>
-					<div>文学</div>
-					<div>青春文学</div>
-				</div>
-			</div>
-			<div class="sx-content">
-				<div class="sx-item-title">
-					<div>字数</div>
-					<div><img src="img/ai-arrow-down.png" alt=""></div>
-				</div>
-				<div class="sx-item-list">
-					<div>200万字以上</div>
-					<div>200万字以上</div>
-					<div>200万字以上</div>
-					<div>200万字以上</div>
-					<div>200万字以上</div>
-				</div>
-			</div>
-			<div class="sx-content">
-				<div class="sx-item-title">
-					<div>状态</div>
-					<div><img src="img/ai-arrow-down.png" alt=""></div>
-				</div>
-				<div class="sx-item-list">
-					<div>完本</div>
-					<div>连载</div>
-					<div>3天内有更新</div>
-					<div>7天内有更新</div>
-					<div>30天内有更新</div>
-				</div>
-			</div>
-			<div class="sx-content">
-				<div class="sx-item-title">
-					<div>付费状态</div>
-					<div><img src="img/ai-arrow-down.png" alt=""></div>
-				</div>
-				<div class="sx-item-list">
-					<div>免费</div>
-					<div>付费</div>
-				</div>
-			</div>
-		</div>
-	</div>
+  <!-- 导航栏 end -->
+  <ul class="class-menu">
+    <li>全部</li>
+    <li>玄幻</li>
+    <li class="active">奇幻</li>
+    <li>武侠</li>
+    <li>都市</li>
+    <li>仙侠</li>
+  </ul>
+  <ul class="class-menu-active">
+    <li class="active">全部玄幻</li>
+    <li>东方玄幻</li>
+    <li>异地大路</li>
+    <li>王朝争霸</li>
+  </ul>
 	<div class="book-list-box">
 		<div class="book-list">
 			<div class="book-cover">
@@ -127,8 +54,8 @@
 				<h4>玲歌 · 都市 · 豪门 · 连载中 · 523万字</h4>
 				<p>四年前，他讨厌她，四年后他爱她。愿望是尽早实现财务自由，过上猪一样的生活...四年前，他讨厌她，四年后他爱她。愿望是尽早实现财务自由</p>
 			</div>
-		</div>
-		<div class="book-list">
+    </div>
+    <div class="book-list">
 			<div class="book-cover">
 				<img src="img/search-cover-1.png" >
 			</div>
@@ -137,8 +64,8 @@
 				<h4>玲歌 · 都市 · 豪门 · 连载中 · 523万字</h4>
 				<p>四年前，他讨厌她，四年后他爱她。愿望是尽早实现财务自由，过上猪一样的生活...四年前，他讨厌她，四年后他爱她。愿望是尽早实现财务自由</p>
 			</div>
-		</div>
-		<div class="book-list">
+    </div>
+    <div class="book-list">
 			<div class="book-cover">
 				<img src="img/search-cover-1.png" >
 			</div>
@@ -147,8 +74,8 @@
 				<h4>玲歌 · 都市 · 豪门 · 连载中 · 523万字</h4>
 				<p>四年前，他讨厌她，四年后他爱她。愿望是尽早实现财务自由，过上猪一样的生活...四年前，他讨厌她，四年后他爱她。愿望是尽早实现财务自由</p>
 			</div>
-		</div>
-		<div class="book-list">
+    </div>
+    <div class="book-list">
 			<div class="book-cover">
 				<img src="img/search-cover-1.png" >
 			</div>
@@ -157,8 +84,18 @@
 				<h4>玲歌 · 都市 · 豪门 · 连载中 · 523万字</h4>
 				<p>四年前，他讨厌她，四年后他爱她。愿望是尽早实现财务自由，过上猪一样的生活...四年前，他讨厌她，四年后他爱她。愿望是尽早实现财务自由</p>
 			</div>
-		</div>
-		<div class="clear"></div>
+    </div>
+    <div class="book-list">
+			<div class="book-cover">
+				<img src="img/search-cover-1.png" >
+			</div>
+			<div class="book-right">
+				<h2>二度婚宠：厉太太，我们复婚吧！</h2>
+				<h4>玲歌 · 都市 · 豪门 · 连载中 · 523万字</h4>
+				<p>四年前，他讨厌她，四年后他爱她。愿望是尽早实现财务自由，过上猪一样的生活...四年前，他讨厌她，四年后他爱她。愿望是尽早实现财务自由</p>
+			</div>
+    </div>
+    <div class="clear"></div>
 		<div class="tab-bar">
 			<a href="bookcase.html" class="tab-item">
 				<div class="tab-item-img"><img src="img/bookshelf.png" alt=""></div>
