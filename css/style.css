@@ -855,12 +855,12 @@ body{
 	padding: 5px 15px;
 }
 .class-menu-active{
-	display: flex;
-	align-items: center;
-	padding: 11px 0;
+	height: 44px;
+	line-height: 44px;
 	background-color: #F5F5F5;
 }
 .class-menu-active li{
+	float: left;
 	text-align: center;
 	font-size: 13px;
 	color: #484848;
@@ -952,4 +952,38 @@ body{
 }
 .sale-box{
 	padding: 10px;
+}
+
+.nav_dh {
+	box-sizing: border-box;
+	width: 100%;
+	overflow-y: auto;
+	height: .44rem;
+	line-height: .25rem;
+	max-width: 640px;
+	min-width: 320px;
+}
+
+.nav_dh ul {
+	width: 600px;
+}
+
+.nav_dh ul li {
+	float: left;
+	font-size: 13px;
+    color: #484848;
+    text-align: center;
+    padding: 5px 15px;
+}
+
+.nav_dh ul li.active {
+    background-color: #F5F5F5;
+    border-radius: 5px 5px 0 0;
+    color: #E62129;
+    padding: 5px 15px;
+}
+
+.huandong::-webkit-scrollbar {
+	display: none;
+	height: 0 !important;
 }
